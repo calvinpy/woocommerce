@@ -122,12 +122,6 @@ class WC_Aplazame_Gateway extends WC_Payment_Gateway
                 'label' => __('Turn on Sandbox', 'aplazame'),
                 'default' => 'yes'
             ),
-            'host' => array(
-                'type' => 'text',
-                'title' => 'Host',
-                'description' => __('Aplazame Host', 'aplazame'),
-                'default' => 'https://aplazame.com'
-            ),
             'api_version' => array(
                 'type' => 'text',
                 'title' => __('API Version', 'aplazame'),

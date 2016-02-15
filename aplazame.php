@@ -43,7 +43,7 @@ class WC_Aplazame
         # Settings
         $this->settings = get_option('woocommerce_aplazame_settings', array());
         $this->sandbox = $this->settings['sandbox'] === 'yes';
-        $this->host = $this->settings['host'];
+        $this->host = 'https://aplazame.com';
         $this->private_api_key = $this->settings['private_api_key'];
 
         # Redirect
